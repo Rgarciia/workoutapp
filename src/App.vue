@@ -1,14 +1,7 @@
 <template>
-  <Index/>
+  <div id="app">
+    <router-view/>
+  </div>
 </template>
 
-<script>
-import Index from './components/Index.vue'
-export default {
-  name: 'App',
-  components: {
-    // eslint-disable-next-line vue/no-unused-components
-    Index,
-  },
-};
-</script>
+<style src="./assets/css/index.css"></style>

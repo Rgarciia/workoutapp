@@ -1,0 +1,260 @@
+.v-main__wrap {
+  top: 275px !important;
+}
+.theme--dark.v-toolbar.v-sheet {
+  background-color: #272727a6!important;
+}
+.container.fill-height>.layout {
+  height: 60%
+}
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+    .vertical-center {
+      position: fixed;
+      top: 50%;
+      left: 67%;
+      transform: translate(-35%, -50%);
+    }
+  
+  
+    h3 {
+      font-family: Montserrat, Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      letter-spacing: .05rem;
+      line-height: 3.8rem;
+      text-align: center;
+      color: whitesmoke;
+      font-size: 30px;
+    }
+  
+    h4 {
+      font-family: Montserrat, Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      letter-spacing: .05rem;
+      line-height: 3.8rem;
+      text-align: center;
+      color: whitesmoke;
+      margin-top: 100px;
+      font-size: 20px;
+    }
+  
+    .object {
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      margin-bottom: 25px;
+      margin-top: 0;
+      color: whitesmoke;
+      font-size: 18px;
+      padding: 50px;
+      text-align-last: justify;
+    }
+  
+    .object2 {
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      margin-bottom: 25px;
+      margin-top: 0;
+      color: whitesmoke;
+      font-size: 18px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      text-align-last: justify;
+      padding: 10px;
+    }
+  
+    .object3 {
+      color: whitesmoke;
+      font-size: 19px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      text-align-last: justify;
+      padding: 10px;
+    }
+  
+    .titulo {
+      text-align-last: justify;
+      font-family: Montserrat, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      letter-spacing: .05rem;
+      line-height: 3.8rem;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 120px auto;
+      padding: 10px;
+  
+    }
+  
+  }
+  
+  /* For Tablet View */
+  @media screen and (min-device-width: 820px)
+  and (max-device-width: 1180px) {
+    .vertical-center {
+      position:fixed;
+      left:68%;
+      top:51%;
+      transform:translate(-51%, -51%);
+    }
+    h3 {
+      font-family: Montserrat, Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      letter-spacing: .05rem;
+      line-height: 3.8rem;
+      text-align: center;
+      color: whitesmoke;
+      font-size: 30px;
+    }
+  
+    h4 {
+      font-family: Montserrat, Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      letter-spacing: .05rem;
+      line-height: 3.8rem;
+      text-align: center;
+      color: whitesmoke;
+      margin-top: 100px;
+      font-size: 20px;
+    }
+  
+    .object {
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      margin-bottom: 25px;
+      margin-top: 0;
+      color: whitesmoke;
+      font-size: 18px;
+      padding: 25px;
+      text-align-last: justify;
+    }
+  
+    .object2 {
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      margin-bottom: 25px;
+      margin-top: 0;
+      color: whitesmoke;
+      font-size: 18px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      text-align-last: justify;
+      padding: 10px;
+    }
+  
+    .object3 {
+      color: whitesmoke;
+      font-size: 19px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      text-align-last: justify;
+      padding: 10px;
+    }
+  
+    .titulo {
+      text-align-last: justify;
+      font-family: Montserrat, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      letter-spacing: .05rem;
+      line-height: 3.8rem;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 120px auto;
+      padding: 10px;
+  
+    }
+  }
+  
+  /* For Mobile Portrait View */
+  @media screen and (max-device-width: 480px)
+  and (orientation: portrait) {
+    .vertical-center {
+      position:fixed;
+      left:51%;
+      top:51%;
+      transform:translate(-51%, -51%);
+    }
+    h3 {
+      font-family: Montserrat, Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      letter-spacing: .05rem;
+      line-height: 3.8rem;
+      text-align: center;
+      color: whitesmoke;
+      font-size: 20px;
+    }
+  
+    h4 {
+      font-family: Montserrat, Helvetica, Arial, sans-serif;
+      font-weight: 700;
+      letter-spacing: .05rem;
+      line-height: 3.8rem;
+      text-align: center;
+      color: whitesmoke;
+      margin-top: 75px;
+      font-size: 18px;
+    }
+  
+    .object {
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      margin-bottom: 25px;
+      margin-top: 0;
+      color: whitesmoke;
+      font-size: 13px;
+      padding: 21px;
+      text-align-last: justify;
+    }
+  
+    .object2 {
+      font-family: Roboto, Helvetica, Arial, sans-serif;
+      margin-bottom: 25px;
+      margin-top: 0;
+      color: whitesmoke;
+      font-size: 13px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      text-align-last: justify;
+      padding: 10px;
+    }
+  
+    .object3 {
+      color: whitesmoke;
+      font-size: 19px;
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      text-align-last: justify;
+      padding: 10px;
+    }
+  
+    .titulo {
+      text-align-last: justify;
+      font-family: Montserrat, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      letter-spacing: .05rem;
+      line-height: 3.8rem;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 120px auto;
+      padding: 10px;
+  
+    }
+  }
